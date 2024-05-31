@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    background-color:lawngreen;
+    padding: 14px 20px;
+    font-size: 2rem;
+
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+.navbar .menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar .menu a:hover{
+    color: red;
+    font-weight: bold;
+}
