@@ -1,0 +1,25 @@
+div{
+    background-color: black;
+      
+      width:1000px;
+      height:400px;
+
+}
+
+@media screen and(max-width:800px){
+
+    div{
+      width:600px;
+      height:300px;
+     
+    }
+}
+
+@media screen and(max-width:480px){
+
+div{
+   
+      width:400px;
+      height:200px;
+}
+}

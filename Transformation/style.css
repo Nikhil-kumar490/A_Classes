@@ -1,0 +1,33 @@
+#t{
+    background-color: black;
+    width: 400px;
+    height: 20px;
+    transform: rotate(0deg);
+    margin-top: 300px;
+    animation: rot 0.3s linear 1s infinite normal;
+}
+p{
+    color: rgb(197, 91, 16);
+}
+
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+      
+    25%{
+            transform: rotate(45deg);
+        }
+
+        50%{
+            transform: rotate(90deg);
+        }
+
+        75%{
+            transform: rotate(120deg);
+        }
+
+        100%{
+            transform: rotate(180deg);
+        }
+}
