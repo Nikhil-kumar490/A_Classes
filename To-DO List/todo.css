@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+
+h1 {
+    text-align: center;
+    color: #045b07;
+    
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    color:rgb(255, 5, 168);
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}

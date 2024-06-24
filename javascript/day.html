@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="day.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Display</title>
+</head>
+
+<body>
+    <label for="daySelector">-:<u> Select The Number </u>:-</label>
+    <select id="daySelector">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        
+    </select>
+    <button onclick="showDay()">Show</button>
+    <div id="dayDisplay"></div>
+
+    <script>
+        function showDay() {
+            const daySelector = document.getElementById('daySelector');
+            const dayDisplay = document.getElementById('dayDisplay');
+            const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+            const selectedDayIndex = daySelector.value - 1;
+            dayDisplay.innerText = days[selectedDayIndex];
+        }
+    </script>
+</body>
+
+</html>
