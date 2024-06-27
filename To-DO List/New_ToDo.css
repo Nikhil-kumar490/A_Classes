@@ -79,3 +79,16 @@ button.completeBtn:hover {
     background-color: #218838;
 }
 
+.com{
+    display: flex;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-content: space-between;
+}
+.con{
+    display: flex;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: aqua;
+     justify-content: space-between;
+}
