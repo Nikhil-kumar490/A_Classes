@@ -30,6 +30,15 @@
             dayDisplay.innerText = days[selectedDayIndex];
         }
     </script>
+     <script>
+        function showDay() {
+            const daySelector = document.getElementById('daySelector');
+            const dayDisplay = document.getElementById('dayDisplay');
+            const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+            const selectedDayIndex = daySelector.value - 1;
+            dayDisplay.innerText = days[selectedDayIndex];
+        }
+    </script>
 </body>
 
 </html>
